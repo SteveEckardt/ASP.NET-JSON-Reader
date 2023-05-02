@@ -1,0 +1,35 @@
+﻿@model ListEvents
+@{
+    ViewData["Title"] = "List of Events";
+}
+<h2>List of Events</h2>
+<p>The paragraph followed by a list of 5 events with title, time, location information.</p>
+
+<ul>
+    @foreach (var item in Model.Events)
+    {
+        <li>
+            Event:
+            <strong>
+            @{
+                var eventTitle = item.Title;
+                @Html.DisplayFor(modelItem => eventTitle)
+            }
+            </strong>
+            <ul>
+                <li>
+                    @{
+                        var eventLocation = "Location: " + item.Location;
+                        @Html.DisplayFor(modelItem => eventLocation)
+                    }
+                </li>
+                <li>
+                    @{
+                        var eventTime = "Time: " + item.Time;
+                        @Html.DisplayFor(modelItem => eventTime)
+                    }
+                </li>
+            </ul>
+        </li>
+    }
+</ul>

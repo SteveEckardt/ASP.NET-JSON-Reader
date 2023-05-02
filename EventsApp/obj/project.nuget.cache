@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "aDdpVoGUYutx0V+Q5viPSV2OEEsJeCJWbT2S+i4cWFcsZNnUnA+TP4rWKtJcLR1p2ELJwG+KzXfjTGsWT/JJGA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\nepets\\source\\repos\\EventsApp\\EventsApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\nepets\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
